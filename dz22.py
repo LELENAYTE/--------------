@@ -1,4 +1,4 @@
-vvod=input("введите строку")
+vvod = input("введите строку")
 #print(vvod)
 k = int(input("Введите число k: "))
 schetchik = 0
@@ -7,4 +7,3 @@ for i in vvod:
         schetchik += 1
         if schetchik == k:
             print (i)
-            
