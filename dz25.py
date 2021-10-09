@@ -1,5 +1,3 @@
-chislo=input(list())
-i=0
-while i < 5 :
-    print(chislo[i])
-    i+=1
+vvod=input("введите строку")
+for i in vvod:
+    print(i)
