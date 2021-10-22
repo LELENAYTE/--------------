@@ -1,9 +1,9 @@
 def sred_arifm(b):
     resultat = 0.0
     summa = 0.0
-    for i in range(0, len(b)):
+    for i in range(len(b)):
         summa = summa + float(b[i])
-    resultat = float(summa // len(b))
+    resultat = summa / len(b)
     return resultat
 
 
