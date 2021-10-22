@@ -1,11 +1,10 @@
-s = input()
-result = 0
-for a in s:
-    if "(" in a:
-        result += 1
-    elif ")" in a:
-        result -= 1
-    if result < 0:
-        print("NO")
-    if result > 0:
-        print("YES")
+spisok = input()
+left = spisok.count('(')
+right = spisok.count(')')
+proverka = left - right
+if proverka > 0:
+    print('Не хватает закрывающих:', proverka)
+elif proverka < 0:
+    print('Не хватает открывающих:', -proverka)
+else:
+    print('Ошибок нет')
