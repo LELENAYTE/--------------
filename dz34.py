@@ -1,4 +1,4 @@
-from dz31 input vvod()
+from dz31 import vvod
 
 def proverka(your_list, kolvo):
     for i in your_list:
