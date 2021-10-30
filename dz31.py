@@ -7,4 +7,4 @@ def vvod():
     return b
 
 
-print(saymont())
+print(vvod())
