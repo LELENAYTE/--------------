@@ -6,7 +6,7 @@ def fib(n):
         return 0
     if n < 1:
         return 0
-    for i in range(n):
+    for _ in range(n):
         hold = value
         value += pred_value
         pred_value = hold
