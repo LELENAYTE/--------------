@@ -10,7 +10,6 @@ def fib(n):
         hold = value
         value += pred_value
         pred_value = hold
-    return value
 
 
 n = int(input("введите n:\t"))
