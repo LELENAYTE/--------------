@@ -13,4 +13,4 @@ x = input()
 while x != "":
     b.append(float(x))
     x = input()
-print(float(sred_arifm(b)))
+print(sred_arifm(b))
