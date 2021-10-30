@@ -2,6 +2,9 @@ def fib(n):
     pred_value = 0
     value = 1
     if n < 1:
+        print("Не надо так делать")
+        return 0
+    if n < 1:
         return 0
     for i in range(n):
         hold = value
