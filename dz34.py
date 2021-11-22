@@ -1,3 +1,6 @@
+from dz31 import vvodspiska
+
+
 def proverka(your_list, kolvo):
     for i in your_list:
         if i in kolvo:
@@ -6,7 +9,6 @@ def proverka(your_list, kolvo):
             kolvo[i] = 1
     return your_list, kolvo
 
-from dz31 import vvodspiska
 lst = []
 kolvo = {}
 proverka(vvodspiska(), kolvo)
